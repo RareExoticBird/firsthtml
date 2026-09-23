@@ -1,57 +1,63 @@
-<html>
-    <header>
+<!DOCTYPE html>
+<header>
+    <link rel="stylesheet" href="style.css">
     <title> Main Project</title>
     <table width="750">
         <tr>
-            <td> <img 
-            src="https://stjohns.uconnectlabs.com/wp-content/uploads/sites/296/2024/02/Untitled-design-2024-02-27T114650.323.png" 
-            alt="Main Project"
-            width="250" 
-            height="150"> </td>
-            <td align="center"> 
-                <font face="Arial" size="3">Services</td>
-            <td align="center">
-                <font face="Arial" size="3">Products</font>
+            <td> <img
+                    src="https://stjohns.uconnectlabs.com/wp-content/uploads/sites/296/2024/02/Untitled-design-2024-02-27T114650.323.png"
+                    alt="Main Project" width="250" height="150"> </td>
+            <td align:center>
+                <font: face="Arial" size="3">&emsp;&emsp;&emsp;&emsp;Services&emsp;&emsp;
+            </td>
+            <td align:center>
+                <font: face="Arial" size="3">Products
             </td>
         </tr>
     </table>
-    </header>
+</header>
 
-    <body>
-        <br><br><br>
-        <table width="90%"> 
-            <tr>
-                <td>
-                <font face="Arial" size="5">
-                We simplify technology<br>
-                so you can focus on<br>
-                growing your business.
-                </font>
-                </td>
-            </tr>
-        </table>
+<body>
+    <br><br><br>
+    <table width="100%">
+        <tr>
+            <td style="text-align: justify; padding-left: 80px; position: relative; top: -80px;">
+                <font: face="Arial" style="font-size:40px;">
+                    We simplify technology<br>
+                    so you can focus on<br>
+                    growing your business.
+            </td>
+            <td>
+                <img src="images/NPCS.png"
+                    alt="NPCs" width="600" height="300">
+            </td>
+        </tr>
+    </table>
 
     <br><br><br><br><br><br><br>
-    <font face="Arial" size="2">
+    <font: face="Arial" size="2">
         Work with our 15+ years of experts from Oracle, Google, Meta,<br>
         Amazon, In BM and academic institutions to grow your business.
-    </body>
+</body>
 
-        <p>
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            2 Terrace St, Long Island
-            New York 11771, USA
-            &emsp;&emsp;&emsp;&emsp;
-            Who We Are
-            Publications
-            &emsp;&emsp;&emsp;&emsp;
-            Our mission
-            Our vision  
-            &emsp;&emsp;&emsp;&emsp;
-            Career
-            Internship
-            &emsp;&emsp;&emsp;&emsp;
-            (917) 222-2222
-            info@google.com 
-        </p>
+<footer>
+    <p>
+        &emsp;&emsp;
+        2 Terrace St, Long Island
+        New York 11771, USA
+        &emsp;&emsp;&emsp;&emsp;
+        Who We Are
+        Publications
+        &emsp;&emsp;&emsp;&emsp;
+        Our mission
+        Our vision
+        &emsp;&emsp;&emsp;&emsp;
+        Career
+        Internship
+        &emsp;&emsp;&emsp;&emsp;
+        (917) 222-2222
+        info@google.com
+    </p>
+</footer>
+
 </html>
