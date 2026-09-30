@@ -5,13 +5,13 @@
     <table width="750">
         <tr>
             <td> <img
-                    src="https://stjohns.uconnectlabs.com/wp-content/uploads/sites/296/2024/02/Untitled-design-2024-02-27T114650.323.png"
+                    src="images/infotix.png"
                     class = "img-logo" alt="Main Project"> </td>
             <td align:center>
-                <font: face="Arial" size="3">&emsp;&emsp;&emsp;&emsp;Services&emsp;&emsp;&emsp;&emsp;
+                <p style=color:white>&emsp;&emsp;&emsp;&emsp;Services&emsp;&emsp;&emsp;&emsp;</p>
             </td>
-            <td align:center>
-                <font: face="Arial" size="3">Products
+            <td align:center> 
+                <p style="color: white">Products
             </td>
         </tr>
     </table>
@@ -21,7 +21,7 @@
     <table width="100%">
         <tr>
             <td style="text-align: justify; padding-left: 80px; position: relative; top: -150px;">
-                <font: face="Arial" style="font-size:40px;">
+                <p style="color: white; font-size:35px; font-family: Arial, sans-serif;">
                     We simplify technology<br>
                     so you can focus on<br>
                     growing your business.
@@ -33,8 +33,10 @@
         </tr>
         <tr>
             <td style="text-align: justify; padding-left: 80px; position: relative; top: -40px;">
+                <p style="color: white; font-size:15px; font-family: Arial, sans-serif;">
                     Work with our 15+ years of experts from Oracle, Google, Meta,<br>
                     Amazon, In BM and academic institutions to grow your business.
+                </p>
             </td>
         </tr>
     </table>
