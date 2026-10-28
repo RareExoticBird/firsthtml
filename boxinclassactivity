@@ -1,0 +1,84 @@
+
+<html>
+    <body>
+        <p>CONTACT</p>
+        <hr style="border: 0; height: 5px; background-color: black;">
+        <label for="myCheck">Checkbox:</label>
+        <input type="checkbox" id="myCheck" onclick="myFunction()">
+        <p id="text" style="display:none">Checkbox is Checked!</p>
+
+        &emsp;&emsp;&emsp;
+
+        <div>
+        &emsp;&emsp;&emsp; 
+        <label for="myCheck">Textbox1:</label>
+        <input type="text" id="myText" onclick="myFunction1()">
+            
+        <label for="myCheck">Textbox1.2</label>
+        <input type="text" id="myText1.2" onclick="myFunction12()">
+        </div>
+
+        <div>
+        <label for="myCheck">Textbox2:</label>
+        <input type="text" id="myText" onclick="myFunction2()">
+
+        <label for="myCheck">Textbox2.1:</label>
+        <input type="text" id="myText2.1" onclick="myFunction21()">
+        </div>
+
+        <div>
+        <label for="myCheck">Textbox3:</label>
+        <input type="text" id="myText" onclick="myFunction3()">
+
+        <label for="myCheck">Textbox3.1:</label>
+        <input type="text" id="myText3.1" onclick="myFunction31()">
+        </div>
+
+        <script> 
+            function myFunction() {
+                var checkbox = document.getElementById("myCheck");
+                var text = document.getElementById("text");
+
+                if (checkbox.checked==true) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none"
+                }
+            }
+
+                function myFunction1() {
+                var text1 = document.getElementById("text1");
+                text1.style.display = "block";
+            }
+
+                function myFunction2() {
+                var text2 = document.getElementById("myText");
+                text2.style.display = "block";
+            }
+
+                function myFunction21() {
+                var text21 = document.getElementById("myText2.1");
+                text21.style.display = "block";
+            }
+
+                function myFunction3() {
+                var text3 = document.getElementById("myText");
+                text3.style.display = "block";
+            }
+
+                function myFunction12() {
+                var text12 = document.getElementById("myText1.2");
+                text12.style.display = "block";
+            }
+
+                function myFunction31() {
+                var text31 = document.getElementById("myText3.1");
+                text31.style.display = "block";
+            }
+        </script>
+
+    <script> 
+        
+    </script>
+    </body>
+</html>
